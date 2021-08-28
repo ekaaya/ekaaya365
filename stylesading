@@ -1,0 +1,2593 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;
+400;
+500;
+600;
+700;
+900&display=swap&subset=cyrillic);
+@font-face{
+	font-family:national-casino;
+	src:url(/app/national-casino.7e0a4bf55d38eb7ae392.ttf?3289zf) format('truetype'),url(/app/national-casino.7a9f672f7f3e91183686.woff?3289zf) format('woff'),url(/app/national-casino.1d35b2eb1997901a62d0.svg?3289zf#national-casino) format('svg');
+	font-weight:400;
+	font-style:normal;
+	font-display:block
+}
+[class*=" nc-"],[class^=nc-]{
+	font-family:national-casino!important;
+	speak:never;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+.nc-category_slots:before{
+	content:"\e900"
+}
+.nc-category_roulette:before{
+	content:"\e901"
+}
+.nc-category_popular:before{
+	content:"\e902"
+}
+.nc-category_poker:before{
+	content:"\e903"
+}
+.nc-category_other:before{
+	content:"\e904"
+}
+.nc-category_new:before{
+	content:"\e905"
+}
+.nc-category_lobby_live:before{
+	content:"\e906"
+}
+.nc-category_lobby:before{
+	content:"\e907"
+}
+.nc-category_jackpot:before{
+	content:"\e908"
+}
+.nc-category_favorites:before{
+	content:"\e909"
+}
+.nc-category_fast_games:before{
+	content:"\e90a"
+}
+.nc-category_drops_and_wins:before{
+	content:"\e90b"
+}
+.nc-category_cards:before{
+	content:"\e90c"
+}
+.nc-category_bonus_buy:before{
+	content:"\e90d"
+}
+.nc-category_blackjack:before{
+	content:"\e90e"
+}
+.nc-category_baccarat:before{
+	content:"\e90f"
+}
+.nc-category_all_tables:before{
+	content:"\e910"
+}
+.nc-category_all:before{
+	content:"\e911"
+}
+.nc-blocked:before{
+	content:"\e912"
+}
+.nc-wreath:before{
+	content:"\e913"
+}
+.nc-withdraw:before{
+	content:"\e914"
+}
+.nc-vip:before{
+	content:"\e915"
+}
+.nc-vector:before{
+	content:"\e916"
+}
+.nc-tournament:before{
+	content:"\e917"
+}
+.nc-support:before{
+	content:"\e918"
+}
+.nc-star:before{
+	content:"\e919"
+}
+.nc-see:before{
+	content:"\e91a"
+}
+.nc-search:before{
+	content:"\e91b"
+}
+.nc-puzzle:before{
+	content:"\e91c"
+}
+.nc-promo:before{
+	content:"\e91d"
+}
+.nc-pig-bank:before{
+	content:"\e91e"
+}
+.nc-medal:before{
+	content:"\e91f"
+}
+.nc-lottery:before{
+	content:"\e920"
+}
+.nc-logo:before{
+	content:"\e921"
+}
+.nc-key:before{
+	content:"\e922"
+}
+.nc-joystick:before{
+	content:"\e923"
+}
+.nc-info:before{
+	content:"\e924"
+}
+.nc-horn:before{
+	content:"\e925"
+}
+.nc-heart:before{
+	content:"\e926"
+}
+.nc-hamburger:before{
+	content:"\e927"
+}
+.nc-gift:before{
+	content:"\e928"
+}
+.nc-eye_active:before{
+	content:"\e929"
+}
+.nc-emoji-smile:before{
+	content:"\e92a"
+}
+.nc-dealer:before{
+	content:"\e92b"
+}
+.nc-date:before{
+	content:"\e92c"
+}
+.nc-coronal:before{
+	content:"\e92d"
+}
+.nc-coin:before{
+	content:"\e92e"
+}
+.nc-chevron:before{
+	content:"\e92f"
+}
+.nc-check:before{
+	content:"\e930"
+}
+.nc-card:before{
+	content:"\e931"
+}
+.nc-bitcoin:before{
+	content:"\e932"
+}
+.nc-aviator:before{
+	content:"\e933"
+}
+.nc-aviator-title:before{
+	content:"\e934"
+}
+.nc-aviator-proppeller:before{
+	content:"\e935"
+}
+html{
+	font-family:sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	min-height:100%;
+	height:100%;
+	scrollbar-color:rgba(254,200,130,.15) transparent;
+	scrollbar-width:thin
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
+	display:block
+}
+audio,canvas,progress,video{
+	display:inline-block;
+	vertical-align:baseline
+}
+audio:not([controls]){
+	display:none;
+	height:0
+}
+[hidden],template{
+	display:none
+}
+a{
+	background:0 0;
+	text-decoration:none;
+	outline:0;
+	color:#d4c5b1;
+	transition:color .2s ease
+}
+a:active,a:hover{
+	outline:0
+}
+abbr[title]{
+	border-bottom:1px dotted
+}
+b,optgroup,strong{
+	font-weight:700
+}
+dfn{
+	font-style:italic
+}
+h1{
+	font-size:2em;
+	margin:.67em 0
+}
+mark{
+	background:#ff0;
+	color:#000
+}
+small{
+	font-size:80%
+}
+sub,sup{
+	font-size:75%;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline
+}
+sup{
+	top:-.5em
+}
+sub{
+	bottom:-.25em
+}
+img{
+	border:0
+}
+svg:not(root){
+	overflow:hidden
+}
+figure{
+	margin:1em 40px
+}
+hr{
+	box-sizing:content-box;
+	height:0
+}
+pre,textarea{
+	overflow:auto
+}
+code,kbd,pre,samp{
+	font-family:monospace,monospace;
+	font-size:1em
+}
+button,input,optgroup,select,textarea{
+	color:inherit;
+	font:inherit;
+	margin:0
+}
+button{
+	overflow:visible;
+	cursor:pointer;
+	-webkit-user-select:none;
+	user-select:none;
+	text-decoration:none;
+	border:none
+}
+button,select{
+	text-transform:none
+}
+button,html input[type=button],input[type=reset],input[type=submit]{
+	-webkit-appearance:button;
+	cursor:pointer
+}
+button[disabled],html input[disabled]{
+	cursor:default
+}
+button::-moz-focus-inner,input::-moz-focus-inner{
+	border:0;
+	padding:0
+}
+input{
+	line-height:normal
+}
+input[type=checkbox],input[type=radio]{
+	box-sizing:border-box;
+	padding:0
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+	height:auto
+}
+input[type=search]{
+	-webkit-appearance:textfield;
+	box-sizing:content-box
+}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{
+	-webkit-appearance:none
+}
+fieldset{
+	border:1px solid silver;
+	margin:0 2px;
+	padding:.35em .625em .75em
+}
+legend{
+	border:0;
+	padding:0
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+td,th{
+	padding:0
+}
+body,html{
+	overflow-anchor:none;
+	-webkit-overflow-scrolling:touch
+}
+body{
+	margin:0;
+	font-family:Poppins,sans-serif;
+	font-size:14px;
+	line-height:1.25;
+	color:#fffaf3;
+	background:#292526;
+	min-height:100%;
+	height:100%;
+	overflow-y:scroll
+}
+body::-webkit-scrollbar{
+	width:8px
+}
+body::-webkit-scrollbar-track{
+	background:0 0
+}
+body::-webkit-scrollbar-thumb{
+	background:rgba(254,200,130,.15)
+}
+body [data-nationalcasino-vip-program]{
+	display:none!important
+}
+html.modal-active body{
+	overflow:hidden!important
+}
+html.modal-active #platform .page,html.modal-active .footer,html.modal-active .page-content,html.modal-active .section-page{
+	filter:blur(6px);
+	pointer-events:none
+}
+html.modal-active .modal{
+	visibility:visible;
+	opacity:1
+}
+html.modal-active .modal #modal-content{
+	transform:scale(1)
+}
+html.modal-active .modal__shadow{
+	visibility:visible
+}
+html.modal-active #platform{
+	overflow:hidden
+}
+html.active-notice #platform .page,html.active-notice .footer,html.active-notice .page-content{
+	pointer-events:none
+}
+html.active-notice .notification-modal__content{
+	animation:.3s toggleNotification;
+	opacity:1
+}
+html.active-notice .modal{
+	filter:blur(6px)
+}
+html:hover body:not(:hover){
+	scrollbar-color:rgba(254,200,130,.7) transparent
+}
+html:hover body:not(:hover)::-webkit-scrollbar-thumb{
+	background:rgba(254,200,130,.7)
+}
+[data-tournament-view]{
+	display:none!important
+}
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-tap-highlight-color:transparent
+}
+ul{
+	list-style:none
+}
+li{
+	display:block
+}
+a:hover{
+	color:#fec882
+}
+.no-wrap{
+	white-space:nowrap
+}
+.casino-logo{
+	display:block;
+	overflow:hidden
+}
+.casino-logo--cropped{
+	height:50px;
+	width:47px
+}
+.casino-logo img{
+	display:block;
+	height:50px;
+	width:127px
+}
+button,input{
+	font-family:Poppins,sans-serif;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	outline:0
+}
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+	margin:0
+}
+input[type=number]{
+	-moz-appearance:textfield
+}
+button:focus,button:hover{
+	outline:0
+}
+body.is-text-page .landing-content,body.is-text-page .page-content{
+	display:block
+}
+body.is-text-page .content{
+	display:none
+}
+body.is-text-page.is-mobile-device .footer{
+	margin-left:0
+}
+body.is-text-page.is-mobile-device .section-page .section-page__wrapper{
+	padding-top:80px
+}
+@media screen and (min-width:768px){
+	.content{
+		margin-left:248px;
+		padding:80px 22px 40px 0
+}
+	.page-content{
+		display:none;
+		margin-left:300px;
+		padding:80px 22px 30px 15px
+}
+	.landing-content{
+		padding:73px 0 30px
+}
+	body.one-column .header__menu-opener{
+		display:flex
+}
+	body.one-column .aside-block{
+		transition:transform .2s ease;
+		transform:translateX(-400px);
+		width:300px
+}
+	body.one-column .content,body.one-column .footer{
+		margin:0 auto;
+		padding-left:18px
+}
+	body.one-column.menu-active .aside-block{
+		transform:translateX(0)
+}
+	body.is-text-page:not(.full-page-width):not(.is-mobile-device).one-column .footer{
+		margin-left:300px
+}
+	body.scheme--lighter{
+		background:#322e2f
+}
+}
+@media screen and (min-width:1280px){
+	body .content,body .footer,body .header{
+		padding-right:22px
+}
+	.modal-active body .content,.modal-active body .header{
+		padding-right:30px
+}
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+	body .content,body .footer,body .header{
+		padding-right:18px
+}
+}
+#text-page{
+	margin:0 auto;
+	width:90%
+}
+#text-page .section-page__header,#text-page .section-title{
+	padding:50px 0 0;
+	font-size:50px;
+	line-height:1.2;
+	font-weight:700;
+	color:#fec882
+}
+@media screen and (max-width:767px){
+	.content{
+		margin-bottom:30px
+}
+	.content--under-header{
+		margin-top:-70px
+}
+	body .landing-content{
+		padding:0 0 30px
+}
+	body.menu-active{
+		overflow:hidden
+}
+	#text-page{
+		width:100%;
+		padding:0 35px
+}
+	#text-page .section-page__header,#text-page .section-title{
+		padding:35px 0 0;
+		font-size:24px
+}
+}
+.footer{
+	display:flex;
+	margin-left:248px;
+	padding:0 80px 60px 50px;
+	overflow:hidden;
+	position:relative;
+	z-index:5
+}
+.footer__content{
+	background:url(/assets/footer/footer-head.png) top center no-repeat;
+	max-width:1240px;
+	position:relative;
+	margin:0 auto;
+	padding-top:60px
+}
+.footer__content:after,.footer__content:before{
+	display:block;
+	content:'';
+	position:absolute;
+	z-index:1;
+	height:1px
+}
+.footer__content:before{
+	left:0;
+	right:0;
+	top:29px;
+	background:linear-gradient(to right,transparent,#94897a calc(50% - 40px),transparent calc(50% - 40px),transparent calc(50% + 40px),#94897a calc(50% + 40px),transparent)
+}
+.footer__content:after{
+	left:50%;
+	width:60%;
+	top:18px;
+	background:#fec882;
+	transform:translateX(-50%)
+}
+.text_page-1 .footer{
+	max-width:100%;
+	margin-right:10px
+}
+.footer__menu{
+	display:flex;
+	margin:0 auto
+}
+.footer__menu-item{
+	width:25%;
+	padding:0 30px 0 0
+}
+.footer__menu-title{
+	color:#d4c5b1;
+	font-size:16px;
+	text-transform:uppercase;
+	line-height:1.25;
+	margin:0 0 20px;
+	font-weight:500
+}
+.footer__payments{
+	padding:30px 0 50px;
+	position:relative
+}
+.footer__payments:after{
+	display:block;
+	content:'';
+	position:absolute;
+	bottom:25px;
+	left:0;
+	width:100%;
+	height:2px;
+	background:linear-gradient(to right,transparent,#fec882 50%,transparent)
+}
+.footer__payments-wrapper{
+	text-align:center
+}
+.footer__payments-image{
+	display:inline-flex;
+	align-self:center;
+	vertical-align:middle;
+	padding:15px;
+	height:60px
+}
+.footer__payments-image--height-80{
+	height:80px
+}
+.footer__text{
+	color:#94897a;
+	font-size:13px;
+	font-weight:500;
+	line-height:1.8;
+	display:flex;
+	justify-content:space-between;
+	align-items:center
+}
+.footer__text p{
+	margin:0;
+	padding:0
+}
+.footer__text p+p{
+	margin-top:23px
+}
+.footer__text-info{
+	margin-right:25px
+}
+.footer__text-image{
+	color:#f6f7f9;
+	font-size:14px;
+	font-weight:700;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#f04e34;
+	border-radius:50%;
+	width:40px;
+	min-width:40px;
+	position:relative;
+	height:40px
+}
+.footer__icons{
+	display:flex;
+	align-items:center
+}
+.footer__icons-curacao{
+	width:87px;
+	display:block
+}
+@media screen and (min-width:768px) and (max-width:1279px){
+	.footer__menu{
+		width:90%
+}
+}
+@media screen and (max-width:767px){
+	html.menu-active{
+		position:fixed;
+		width:100%
+}
+	.footer{
+		margin:0;
+		padding:0 18px 110px
+}
+	.footer__menu{
+		flex-wrap:wrap;
+		max-width:90%;
+		font-size:12px
+}
+	.footer__menu-item{
+		width:50%;
+		padding:0 10px 30px
+}
+	.footer__menu-title{
+		font-size:14px;
+		margin:0 0 10px
+}
+	.footer__payments{
+		padding:0 0 60px
+}
+	.footer__payments:after{
+		bottom:35px;
+		left:-18px;
+		right:-18px;
+		width:auto
+}
+	.footer__payments-image{
+		padding:10px;
+		height:50px
+}
+	.footer__text{
+		padding:0;
+		flex-direction:column;
+		text-align:center;
+		font-size:11px;
+		margin-bottom:15px
+}
+	.footer__text p+p{
+		margin-top:10px
+}
+	.footer__text-info{
+		margin:0 0 15px
+}
+	.aside.aside__text-page{
+		display:none
+}
+}
+@media screen and (max-width:459px){
+	#text-page{
+		padding:0 18px
+}
+	.footer__menu{
+		max-width:100%
+}
+}
+.footer-menu{
+	display:flex;
+	flex-direction:column;
+	list-style:none;
+	margin:0;
+	padding:0
+}
+.footer-menu__item:nth-child(1n+2){
+	margin-top:5px
+}
+.footer-menu__link{
+	color:#94897a;
+	line-height:1.5;
+	position:relative;
+	text-decoration:none
+}
+.footer-menu__link:hover:after{
+	opacity:1;
+	transform:scale(1)
+}
+.animation-start div.footer{
+	display:none!important
+}
+#gameHolder{
+	background:#000;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	z-index:2
+}
+#gameHolder iframe{
+	border:0;
+	left:0;
+	display:block
+}
+.site-menu__link-text{
+	position:relative;
+	display:flex;
+	width:100%;
+	align-items:center
+}
+@media screen and (min-width:768px){
+	.aside.aside__text-page{
+		position:fixed;
+		width:280px;
+		top:80px;
+		left:18px;
+		bottom:15px;
+		z-index:5;
+		background:#292526;
+		overflow-y:auto;
+		scrollbar-color:rgba(254,200,130,.15) transparent;
+		scrollbar-width:thin
+}
+	.aside.aside__text-page .aside-menu{
+		padding-bottom:80px
+}
+	.aside.aside__text-page .aside-menu__title{
+		background:#322e2f;
+		font-weight:600;
+		text-transform:uppercase;
+		color:#fec882;
+		border-radius:5px 5px 0 0;
+		padding:25px 15px 12px 20px;
+		font-size:16px
+}
+	.aside.aside__text-page .aside-menu-list{
+		font-size:16px;
+		line-height:1.3;
+		background:#322e2f;
+		padding:0 15px 15px 20px;
+		border-radius:0 0 5px 5px;
+		margin-bottom:10px
+}
+	.aside.aside__text-page .aside-menu-list:last-child{
+		margin-bottom:0
+}
+	.aside.aside__text-page .aside-menu-list__item{
+		display:block;
+		color:#d4c5b1;
+		padding:8px 0
+}
+	.aside.aside__text-page .aside-menu-list__item.active,.aside.aside__text-page .aside-menu-list__item:hover{
+		color:#fffaf3
+}
+	.aside.aside__text-page .aside-menu-list__submenu{
+		padding:0 0 10px 20px
+}
+	.aside.aside__text-page .aside-menu-list__submenu span{
+		display:block;
+		padding:6px 0;
+		color:#d4c5b1;
+		font-size:14px;
+		cursor:pointer
+}
+	.aside.aside__text-page .aside-menu-list__submenu span:hover{
+		color:#fffaf3
+}
+	.aside.aside__text-page::-webkit-scrollbar{
+		width:3px
+}
+	.aside.aside__text-page::-webkit-scrollbar-track{
+		background:0 0
+}
+	.aside.aside__text-page::-webkit-scrollbar-thumb{
+		background:0 0
+}
+	.aside.aside__text-page:hover{
+		scrollbar-color:rgba(254,200,130,.7) transparent
+}
+	.aside.aside__text-page:hover::-webkit-scrollbar-thumb{
+		background:rgba(254,200,130,.7)
+}
+	.for-mobile{
+		display:none!important
+}
+}
+@media screen and (max-width:767px){
+	.for-desktop{
+		display:none!important
+}
+	.withdrawal.pgw .deposit-frame{
+		min-height:600px
+}
+}
+.grecaptcha-badge{
+	display:none
+}
+.footer__menu--one_row{
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -10px;
+	justify-content:center
+}
+.footer-menu__one_row_item{
+	margin:10px 12px;
+	position:relative
+}
+.footer-menu__one_row_item:after{
+	content:'';
+	display:block;
+	position:absolute;
+	width:2px;
+	background:#fec882;
+	left:-13px;
+	top:0;
+	bottom:0
+}
+.footer-menu__one_row_item:nth-child(1):after{
+	display:none
+}
+.footer-menu__one_row_item .footer-menu__link{
+	text-transform:uppercase;
+	font-size:15px
+}
+.initial_loader img{
+	display:block;
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%)
+}
+[data-nationalcasino-vip-program]{
+	display:none!important
+}
+.deposit-frame{
+	border-radius:5px;
+	overflow:hidden;
+	position:relative
+}
+.deposit-page{
+	background:#fff;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%
+}
+.deposit-page iframe{
+	width:100%;
+	min-height:100%
+}
+@media screen and (max-width:767px){
+	.pgw .deposit-page{
+		position:relative
+}
+	.withdrawal.pgw .deposit-page iframe{
+		min-height:600px
+}
+}
+.deposit-page.deposit,.deposit-page.withdrawal{
+	position:relative
+}
+.flag-icon-world{
+	background:url(/assets/country/globe.svg)
+}
+.cookie-bar{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	font-size:14px;
+	color:#fff;
+	background-color:rgba(0,0,0,.7);
+	z-index:101
+}
+.cookie-bar__content{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:20px
+}
+.cookie-bar__message{
+	margin-left:10px
+}
+.cookie-bar__link{
+	color:#fff;
+	text-decoration:underline
+}
+.cookie-bar__button-wrapper{
+	display:inline-flex;
+	margin-left:20px
+}
+.cookie-bar__button.app-button{
+	height:40px
+}
+@media screen and (max-width:800px){
+	.cookie-bar__icon{
+		margin:0 auto
+}
+	.cookie-bar__content{
+		display:block
+}
+	.cookie-bar__message{
+		margin-top:10px
+}
+	.cookie-bar__button-wrapper{
+		display:flex;
+		justify-content:center;
+		margin:10px auto 0
+}
+}
+@keyframes toggleNotification{
+	0%{
+		transform:scale(.7)
+}
+	45%{
+		transform:scale(1.05)
+}
+	80%{
+		transform:scale(.95)
+}
+	100%{
+		transform:scale(1)
+}
+}
+.flag-icon-background{
+	background-size:contain;
+	background-position:50%;
+	background-repeat:no-repeat
+}
+.flag-icon{
+	background-size:contain;
+	background-position:50%;
+	background-repeat:no-repeat;
+	position:relative;
+	display:inline-block;
+	width:1.33333333em;
+	line-height:1em
+}
+.flag-icon:before{
+	content:'\00a0'
+}
+.flag-icon.flag-icon-squared{
+	width:1em
+}
+.flag-icon-ad{
+	background-image:url(/app/ad.d42274826fceb5a1b786.svg)
+}
+.flag-icon-ad.flag-icon-squared{
+	background-image:url(/app/ad.e15ddeabbfce29717819.svg)
+}
+.flag-icon-ae{
+	background-image:url(/app/ae.9fd1fcbfedb5ace0e6e6.svg)
+}
+.flag-icon-ae.flag-icon-squared{
+	background-image:url(/app/ae.7847726d0663899a3e31.svg)
+}
+.flag-icon-af{
+	background-image:url(/app/af.008dc3229529b5e6be2a.svg)
+}
+.flag-icon-af.flag-icon-squared{
+	background-image:url(/app/af.fa735e43100e6ba7d02a.svg)
+}
+.flag-icon-ag{
+	background-image:url(/app/ag.cce32c739dde31fdbee1.svg)
+}
+.flag-icon-ag.flag-icon-squared{
+	background-image:url(/app/ag.53a600867bab3b2284da.svg)
+}
+.flag-icon-ai{
+	background-image:url(/app/ai.c2f29c4d57cfcba3c9b2.svg)
+}
+.flag-icon-ai.flag-icon-squared{
+	background-image:url(/app/ai.9fe4d6b75d40228a8024.svg)
+}
+.flag-icon-al{
+	background-image:url(/app/al.4eb491e7412fcc678a29.svg)
+}
+.flag-icon-al.flag-icon-squared{
+	background-image:url(/app/al.46612c2737ddd5ca9067.svg)
+}
+.flag-icon-am{
+	background-image:url(/app/am.06509258e6113e2e0e54.svg)
+}
+.flag-icon-am.flag-icon-squared{
+	background-image:url(/app/am.c86a9e1691e7ab36234a.svg)
+}
+.flag-icon-ao{
+	background-image:url(/app/ao.8b6f2ec29629876f9c00.svg)
+}
+.flag-icon-ao.flag-icon-squared{
+	background-image:url(/app/ao.ab8cc21b5392f6d7b213.svg)
+}
+.flag-icon-aq{
+	background-image:url(/app/aq.65afe1f1ffb9d9a23d25.svg)
+}
+.flag-icon-aq.flag-icon-squared{
+	background-image:url(/app/aq.65448909a82325121a92.svg)
+}
+.flag-icon-ar{
+	background-image:url(/app/ar.d205ca1376dbe5ce35b5.svg)
+}
+.flag-icon-ar.flag-icon-squared{
+	background-image:url(/app/ar.78827b0be4fd4c4f4fb4.svg)
+}
+.flag-icon-as{
+	background-image:url(/app/as.16f433a627bc83a007bb.svg)
+}
+.flag-icon-as.flag-icon-squared{
+	background-image:url(/app/as.27f3e372f5d36da8c96a.svg)
+}
+.flag-icon-at{
+	background-image:url(/app/at.e2634e96c9ad4694d513.svg)
+}
+.flag-icon-at.flag-icon-squared{
+	background-image:url(/app/at.5ab33f744e92b143361e.svg)
+}
+.flag-icon-au{
+	background-image:url(/app/au.503a3a980ccbc651a8ac.svg)
+}
+.flag-icon-au.flag-icon-squared{
+	background-image:url(/app/au.9b18ee0449e1b5cd1c78.svg)
+}
+.flag-icon-aw{
+	background-image:url(/app/aw.47ea7038c8fea471afdd.svg)
+}
+.flag-icon-aw.flag-icon-squared{
+	background-image:url(/app/aw.f159ec168ea083c41505.svg)
+}
+.flag-icon-ax{
+	background-image:url(/app/ax.c26f83744d3df6899632.svg)
+}
+.flag-icon-ax.flag-icon-squared{
+	background-image:url(/app/ax.fdd00c438df18b321607.svg)
+}
+.flag-icon-az{
+	background-image:url(/app/az.451284cedf7277f87440.svg)
+}
+.flag-icon-az.flag-icon-squared{
+	background-image:url(/app/az.0b4258df02490e0504d9.svg)
+}
+.flag-icon-ba{
+	background-image:url(/app/ba.3223166179b08490c6c2.svg)
+}
+.flag-icon-ba.flag-icon-squared{
+	background-image:url(/app/ba.a9dbadd71245f7d22044.svg)
+}
+.flag-icon-bb{
+	background-image:url(/app/bb.9873885f352c415ad25c.svg)
+}
+.flag-icon-bb.flag-icon-squared{
+	background-image:url(/app/bb.45c62450e2d60784a4f0.svg)
+}
+.flag-icon-bd{
+	background-image:url(/app/bd.5102bab03db6e13a1650.svg)
+}
+.flag-icon-bd.flag-icon-squared{
+	background-image:url(/app/bd.c4a1485f3606f93b55fa.svg)
+}
+.flag-icon-be{
+	background-image:url(/app/be.27d8ca49197f90010475.svg)
+}
+.flag-icon-be.flag-icon-squared{
+	background-image:url(/app/be.f1e78c8b3266b110a4a5.svg)
+}
+.flag-icon-bf{
+	background-image:url(/app/bf.9a958401fd126a3c0868.svg)
+}
+.flag-icon-bf.flag-icon-squared{
+	background-image:url(/app/bf.48eb94de0b25013f3416.svg)
+}
+.flag-icon-bg{
+	background-image:url(/app/bg.3d762564b2be000f52ca.svg)
+}
+.flag-icon-bg.flag-icon-squared{
+	background-image:url(/app/bg.7163fe7683bf09611884.svg)
+}
+.flag-icon-bh{
+	background-image:url(/app/bh.ef135f3ca77838cbb6e3.svg)
+}
+.flag-icon-bh.flag-icon-squared{
+	background-image:url(/app/bh.90ad3cbd95a2834f0a78.svg)
+}
+.flag-icon-bi{
+	background-image:url(/app/bi.06f36479b44476f25fc9.svg)
+}
+.flag-icon-bi.flag-icon-squared{
+	background-image:url(/app/bi.75d5af3debe2895f5eb2.svg)
+}
+.flag-icon-bj{
+	background-image:url(/app/bj.c81e891543509717b02a.svg)
+}
+.flag-icon-bj.flag-icon-squared{
+	background-image:url(/app/bj.b6387659d755f8364b76.svg)
+}
+.flag-icon-bl{
+	background-image:url(/app/bl.38e27b684c0a7f079cc7.svg)
+}
+.flag-icon-bl.flag-icon-squared{
+	background-image:url(/app/bl.4d724b8ec2c508cf9abf.svg)
+}
+.flag-icon-bm{
+	background-image:url(/app/bm.0fdefae88aaed5d7f189.svg)
+}
+.flag-icon-bm.flag-icon-squared{
+	background-image:url(/app/bm.09839e2cd707999b472d.svg)
+}
+.flag-icon-bn{
+	background-image:url(/app/bn.1d4e60918c474f844110.svg)
+}
+.flag-icon-bn.flag-icon-squared{
+	background-image:url(/app/bn.0adbb6646a1e26c44996.svg)
+}
+.flag-icon-bo{
+	background-image:url(/app/bo.4128202a176b10fa597f.svg)
+}
+.flag-icon-bo.flag-icon-squared{
+	background-image:url(/app/bo.eab17936c2d9dd56edd3.svg)
+}
+.flag-icon-bq{
+	background-image:url(/app/bq.b551016fbdf64b9d22f1.svg)
+}
+.flag-icon-bq.flag-icon-squared{
+	background-image:url(/app/bq.d6da2e848d831d87d516.svg)
+}
+.flag-icon-br{
+	background-image:url(/app/br.87032851c3532c9dd64f.svg)
+}
+.flag-icon-br.flag-icon-squared{
+	background-image:url(/app/br.ef701aba4f5dc68beb31.svg)
+}
+.flag-icon-bs{
+	background-image:url(/app/bs.9f8a4eae81ab5bc495dd.svg)
+}
+.flag-icon-bs.flag-icon-squared{
+	background-image:url(/app/bs.6fe877e157af3feb0987.svg)
+}
+.flag-icon-bt{
+	background-image:url(/app/bt.65b20c56edb0ae6f6523.svg)
+}
+.flag-icon-bt.flag-icon-squared{
+	background-image:url(/app/bt.dbb1623f2a2bcf088f45.svg)
+}
+.flag-icon-bv{
+	background-image:url(/app/bv.78bef9106e11eade7698.svg)
+}
+.flag-icon-bv.flag-icon-squared{
+	background-image:url(/app/bv.b70ab2f2a1fdb7d66f68.svg)
+}
+.flag-icon-bw{
+	background-image:url(/app/bw.d1585fdf351c0bcd56a0.svg)
+}
+.flag-icon-bw.flag-icon-squared{
+	background-image:url(/app/bw.d9e5e45f7cabb9c0790b.svg)
+}
+.flag-icon-by{
+	background-image:url(/app/by.f4cbd761094b27fc2537.svg)
+}
+.flag-icon-by.flag-icon-squared{
+	background-image:url(/app/by.80b2d2dd15003da07957.svg)
+}
+.flag-icon-bz{
+	background-image:url(/app/bz.64d617eaf3f2c6f3f025.svg)
+}
+.flag-icon-bz.flag-icon-squared{
+	background-image:url(/app/bz.e6b5e204d3da700fbf90.svg)
+}
+.flag-icon-ca{
+	background-image:url(/app/ca.c976442e32a435a0ea72.svg)
+}
+.flag-icon-ca.flag-icon-squared{
+	background-image:url(/app/ca.8678fc67f7ebd50a5fc7.svg)
+}
+.flag-icon-cc{
+	background-image:url(/app/cc.2da4bb974f777f45e039.svg)
+}
+.flag-icon-cc.flag-icon-squared{
+	background-image:url(/app/cc.12b2a48420c7a24559f8.svg)
+}
+.flag-icon-cd{
+	background-image:url(/app/cd.cd346cdc7caa41680302.svg)
+}
+.flag-icon-cd.flag-icon-squared{
+	background-image:url(/app/cd.b43f872e1441147e9389.svg)
+}
+.flag-icon-cf{
+	background-image:url(/app/cf.2171101e459db58cc931.svg)
+}
+.flag-icon-cf.flag-icon-squared{
+	background-image:url(/app/cf.1bc217dc2a400899db46.svg)
+}
+.flag-icon-cg{
+	background-image:url(/app/cg.4396b867b33acac643e6.svg)
+}
+.flag-icon-cg.flag-icon-squared{
+	background-image:url(/app/cg.8373836c83f0ae012b42.svg)
+}
+.flag-icon-ch{
+	background-image:url(/app/ch.9c26f60a63bf575c6b7b.svg)
+}
+.flag-icon-ch.flag-icon-squared{
+	background-image:url(/app/ch.252c409ba2d2600aaf08.svg)
+}
+.flag-icon-ci{
+	background-image:url(/app/ci.d939dcac611747f6857e.svg)
+}
+.flag-icon-ci.flag-icon-squared{
+	background-image:url(/app/ci.26a62321690cd175f473.svg)
+}
+.flag-icon-ck{
+	background-image:url(/app/ck.960a7b5a2c2322b89800.svg)
+}
+.flag-icon-ck.flag-icon-squared{
+	background-image:url(/app/ck.22bf8119f315420569c9.svg)
+}
+.flag-icon-cl{
+	background-image:url(/app/cl.8949f9e6d4f88c4f5bc1.svg)
+}
+.flag-icon-cl.flag-icon-squared{
+	background-image:url(/app/cl.6d63ff70245fe5abcbf9.svg)
+}
+.flag-icon-cm{
+	background-image:url(/app/cm.5799ad4c126b0a6b1a3f.svg)
+}
+.flag-icon-cm.flag-icon-squared{
+	background-image:url(/app/cm.c972441e6e4522441d18.svg)
+}
+.flag-icon-cn{
+	background-image:url(/app/cn.02c229de4d98ea166838.svg)
+}
+.flag-icon-cn.flag-icon-squared{
+	background-image:url(/app/cn.a94c93941a4d8907fc2b.svg)
+}
+.flag-icon-co{
+	background-image:url(/app/co.3b252a1a91262604a528.svg)
+}
+.flag-icon-co.flag-icon-squared{
+	background-image:url(/app/co.41244c207c1c8c92c014.svg)
+}
+.flag-icon-cr{
+	background-image:url(/app/cr.7b4ebd50f5274e5bfca8.svg)
+}
+.flag-icon-cr.flag-icon-squared{
+	background-image:url(/app/cr.657d7dbcfdeb67b9324d.svg)
+}
+.flag-icon-cu{
+	background-image:url(/app/cu.750c91b200d29892cf10.svg)
+}
+.flag-icon-cu.flag-icon-squared{
+	background-image:url(/app/cu.0b42edabb93ec1c4862f.svg)
+}
+.flag-icon-cv{
+	background-image:url(/app/cv.f9922e019e929da267a6.svg)
+}
+.flag-icon-cv.flag-icon-squared{
+	background-image:url(/app/cv.20a8cfffe0e969051329.svg)
+}
+.flag-icon-cw{
+	background-image:url(/app/cw.f1b3043c88d52ecf9222.svg)
+}
+.flag-icon-cw.flag-icon-squared{
+	background-image:url(/app/cw.69f19c22070d22008ce7.svg)
+}
+.flag-icon-cx{
+	background-image:url(/app/cx.aa81bb9ef6d3ed6a6d20.svg)
+}
+.flag-icon-cx.flag-icon-squared{
+	background-image:url(/app/cx.172a41ec42fd86419388.svg)
+}
+.flag-icon-cy{
+	background-image:url(/app/cy.d069616cbc4fb181cdad.svg)
+}
+.flag-icon-cy.flag-icon-squared{
+	background-image:url(/app/cy.9f04989a23400aa64e7a.svg)
+}
+.flag-icon-cz{
+	background-image:url(/app/cz.2339f3df385beb6667b8.svg)
+}
+.flag-icon-cz.flag-icon-squared{
+	background-image:url(/app/cz.80879b0e86919c6859d8.svg)
+}
+.flag-icon-de{
+	background-image:url(/app/de.3e726c2b6a59e6e4543c.svg)
+}
+.flag-icon-de.flag-icon-squared{
+	background-image:url(/app/de.4d7bac3b0b9ab578b009.svg)
+}
+.flag-icon-dj{
+	background-image:url(/app/dj.423c41561146de8c3017.svg)
+}
+.flag-icon-dj.flag-icon-squared{
+	background-image:url(/app/dj.0c386d224ea283b79429.svg)
+}
+.flag-icon-dk{
+	background-image:url(/app/dk.eb1416e02baeee91a39f.svg)
+}
+.flag-icon-dk.flag-icon-squared{
+	background-image:url(/app/dk.d046fb5b6363db6e655b.svg)
+}
+.flag-icon-dm{
+	background-image:url(/app/dm.46f58d408f6a338114db.svg)
+}
+.flag-icon-dm.flag-icon-squared{
+	background-image:url(/app/dm.664bf04224fd8e022ee0.svg)
+}
+.flag-icon-do{
+	background-image:url(/app/do.79f8bf8c1a68481e0926.svg)
+}
+.flag-icon-do.flag-icon-squared{
+	background-image:url(/app/do.07d2b1ed2aa93592afc9.svg)
+}
+.flag-icon-dz{
+	background-image:url(/app/dz.4be984a3b7c813f29370.svg)
+}
+.flag-icon-dz.flag-icon-squared{
+	background-image:url(/app/dz.b03e5aec7ad5a75fce37.svg)
+}
+.flag-icon-ec{
+	background-image:url(/app/ec.5d6fdbf808b19221f220.svg)
+}
+.flag-icon-ec.flag-icon-squared{
+	background-image:url(/app/ec.5e9624dfa7ecdab7d752.svg)
+}
+.flag-icon-ee{
+	background-image:url(/app/ee.6088c9ceb092913b54d7.svg)
+}
+.flag-icon-ee.flag-icon-squared{
+	background-image:url(/app/ee.9e932a62565e7ddda051.svg)
+}
+.flag-icon-eg{
+	background-image:url(/app/eg.6b83ab95bd23daca2408.svg)
+}
+.flag-icon-eg.flag-icon-squared{
+	background-image:url(/app/eg.2ea321dd4b0a3aaf3589.svg)
+}
+.flag-icon-eh{
+	background-image:url(/app/eh.3b662831ee7dd98f8995.svg)
+}
+.flag-icon-eh.flag-icon-squared{
+	background-image:url(/app/eh.2a0e164e96dee84d0163.svg)
+}
+.flag-icon-er{
+	background-image:url(/app/er.e5e5e397d9e7e40f3b30.svg)
+}
+.flag-icon-er.flag-icon-squared{
+	background-image:url(/app/er.bdfbf04ca25609debe2a.svg)
+}
+.flag-icon-es{
+	background-image:url(/app/es.50623e6a761b392b5381.svg)
+}
+.flag-icon-es.flag-icon-squared{
+	background-image:url(/app/es.afff247381e7ebe7d31b.svg)
+}
+.flag-icon-et{
+	background-image:url(/app/et.2ebb0d3d6e63baf78a33.svg)
+}
+.flag-icon-et.flag-icon-squared{
+	background-image:url(/app/et.1d986679c4676b25570d.svg)
+}
+.flag-icon-fi{
+	background-image:url(/app/fi.2649533e1d44a2ef75d5.svg)
+}
+.flag-icon-fi.flag-icon-squared{
+	background-image:url(/app/fi.b48413bec5778656a773.svg)
+}
+.flag-icon-fj{
+	background-image:url(/app/fj.60620e850f30b0da0d89.svg)
+}
+.flag-icon-fj.flag-icon-squared{
+	background-image:url(/app/fj.76a7a39e11d32487b82b.svg)
+}
+.flag-icon-fk{
+	background-image:url(/app/fk.519e3de544b46b3524a5.svg)
+}
+.flag-icon-fk.flag-icon-squared{
+	background-image:url(/app/fk.aeb2d58832c6dc501253.svg)
+}
+.flag-icon-fm{
+	background-image:url(/app/fm.59c5190c55c637cc6786.svg)
+}
+.flag-icon-fm.flag-icon-squared{
+	background-image:url(/app/fm.3f19d612c1d987a0948e.svg)
+}
+.flag-icon-fo{
+	background-image:url(/app/fo.037e466d03f81cd46e76.svg)
+}
+.flag-icon-fo.flag-icon-squared{
+	background-image:url(/app/fo.329cbed566020b8e0d7a.svg)
+}
+.flag-icon-fr{
+	background-image:url(/app/fr.b1156355de9691d768df.svg)
+}
+.flag-icon-fr.flag-icon-squared{
+	background-image:url(/app/fr.f8952213641bba462c73.svg)
+}
+.flag-icon-ga{
+	background-image:url(/app/ga.29f203bb2828c1aed048.svg)
+}
+.flag-icon-ga.flag-icon-squared{
+	background-image:url(/app/ga.33d27fe1d14e7a989255.svg)
+}
+.flag-icon-gb{
+	background-image:url(/app/gb.d3ddd6025a06a78535b0.svg)
+}
+.flag-icon-gb.flag-icon-squared{
+	background-image:url(/app/gb.5db9fea0ec9e05cfb98e.svg)
+}
+.flag-icon-gd{
+	background-image:url(/app/gd.8e690a5aa1fbe3a4fb37.svg)
+}
+.flag-icon-gd.flag-icon-squared{
+	background-image:url(/app/gd.56fdbab2ad5e961cad7d.svg)
+}
+.flag-icon-ge{
+	background-image:url(/app/ge.16f859b527e54ef4c757.svg)
+}
+.flag-icon-ge.flag-icon-squared{
+	background-image:url(/app/ge.d3665bf12d34ff71ab30.svg)
+}
+.flag-icon-gf{
+	background-image:url(/app/gf.38dfa23a36e1e72303ea.svg)
+}
+.flag-icon-gf.flag-icon-squared{
+	background-image:url(/app/gf.cabf9781aaaa1dffbf03.svg)
+}
+.flag-icon-gg{
+	background-image:url(/app/gg.98f67a6ff36afda7a5ec.svg)
+}
+.flag-icon-gg.flag-icon-squared{
+	background-image:url(/app/gg.357e1e33666fb0844d04.svg)
+}
+.flag-icon-gh{
+	background-image:url(/app/gh.caedb9129bf6bd63ff40.svg)
+}
+.flag-icon-gh.flag-icon-squared{
+	background-image:url(/app/gh.77872d15b6a675d391e8.svg)
+}
+.flag-icon-gi{
+	background-image:url(/app/gi.dce455a731d707ad9f6f.svg)
+}
+.flag-icon-gi.flag-icon-squared{
+	background-image:url(/app/gi.b0015a50c9f5aacae442.svg)
+}
+.flag-icon-gl{
+	background-image:url(/app/gl.2490aa08f40830bae35d.svg)
+}
+.flag-icon-gl.flag-icon-squared{
+	background-image:url(/app/gl.48bf3e4e3fdafc0726ec.svg)
+}
+.flag-icon-gm{
+	background-image:url(/app/gm.50fe2799b099599b89f8.svg)
+}
+.flag-icon-gm.flag-icon-squared{
+	background-image:url(/app/gm.414139d5039a0584ac04.svg)
+}
+.flag-icon-gn{
+	background-image:url(/app/gn.36a3e9a3dd82736bfcf2.svg)
+}
+.flag-icon-gn.flag-icon-squared{
+	background-image:url(/app/gn.1ce64523708a4513c007.svg)
+}
+.flag-icon-gp{
+	background-image:url(/app/gp.fa4cab3e4ee1b865a975.svg)
+}
+.flag-icon-gp.flag-icon-squared{
+	background-image:url(/app/gp.c2c4da0e6afbe97dffaa.svg)
+}
+.flag-icon-gq{
+	background-image:url(/app/gq.30ed019c10e7044f2664.svg)
+}
+.flag-icon-gq.flag-icon-squared{
+	background-image:url(/app/gq.80b56bda22009d765f2e.svg)
+}
+.flag-icon-gr{
+	background-image:url(/app/gr.471d733ad436f655210f.svg)
+}
+.flag-icon-gr.flag-icon-squared{
+	background-image:url(/app/gr.0bed56a8b6014fe10fef.svg)
+}
+.flag-icon-gs{
+	background-image:url(/app/gs.0ee2d8c9dbe38540ec70.svg)
+}
+.flag-icon-gs.flag-icon-squared{
+	background-image:url(/app/gs.6adf96a85713e8f86ed2.svg)
+}
+.flag-icon-gt{
+	background-image:url(/app/gt.656c9899d22b16629244.svg)
+}
+.flag-icon-gt.flag-icon-squared{
+	background-image:url(/app/gt.d6b5b664755ae293fefa.svg)
+}
+.flag-icon-gu{
+	background-image:url(/app/gu.2284e60e378b2304e722.svg)
+}
+.flag-icon-gu.flag-icon-squared{
+	background-image:url(/app/gu.64936a10d41e5fb3e672.svg)
+}
+.flag-icon-gw{
+	background-image:url(/app/gw.c1e88a916be1c72f688c.svg)
+}
+.flag-icon-gw.flag-icon-squared{
+	background-image:url(/app/gw.5ecbd93cc2eeec1d0633.svg)
+}
+.flag-icon-gy{
+	background-image:url(/app/gy.79fcf270400edca30d77.svg)
+}
+.flag-icon-gy.flag-icon-squared{
+	background-image:url(/app/gy.0653b318bc7218890284.svg)
+}
+.flag-icon-hk{
+	background-image:url(/app/hk.7428ec1c480645e3654a.svg)
+}
+.flag-icon-hk.flag-icon-squared{
+	background-image:url(/app/hk.4a0f09ba94fb32cb4ef1.svg)
+}
+.flag-icon-hm{
+	background-image:url(/app/hm.fe514431ce7922c28d2d.svg)
+}
+.flag-icon-hm.flag-icon-squared{
+	background-image:url(/app/hm.fc838ac0bb4f5ff27231.svg)
+}
+.flag-icon-hn{
+	background-image:url(/app/hn.9b9bee13c67ab85cd468.svg)
+}
+.flag-icon-hn.flag-icon-squared{
+	background-image:url(/app/hn.c94622ad395a0173231a.svg)
+}
+.flag-icon-hr{
+	background-image:url(/app/hr.4680d6323b39f2d7bd88.svg)
+}
+.flag-icon-hr.flag-icon-squared{
+	background-image:url(/app/hr.88f38f33e9c5dd75280a.svg)
+}
+.flag-icon-ht{
+	background-image:url(/app/ht.fb289ca05aec82435254.svg)
+}
+.flag-icon-ht.flag-icon-squared{
+	background-image:url(/app/ht.34eb5f592af7e3948f4d.svg)
+}
+.flag-icon-hu{
+	background-image:url(/app/hu.0d7409f88bca8325938e.svg)
+}
+.flag-icon-hu.flag-icon-squared{
+	background-image:url(/app/hu.e5e334fdd028898fe762.svg)
+}
+.flag-icon-id{
+	background-image:url(/app/id.17b996767ee0373a262c.svg)
+}
+.flag-icon-id.flag-icon-squared{
+	background-image:url(/app/id.9f708fe5bf604f5bf38a.svg)
+}
+.flag-icon-ie{
+	background-image:url(/app/ie.c68ff961baf04c04f9be.svg)
+}
+.flag-icon-ie.flag-icon-squared{
+	background-image:url(/app/ie.798a56e04350344c5937.svg)
+}
+.flag-icon-il{
+	background-image:url(/app/il.874270d66e9553b21e76.svg)
+}
+.flag-icon-il.flag-icon-squared{
+	background-image:url(/app/il.c36a011de460eb2d3b8c.svg)
+}
+.flag-icon-im{
+	background-image:url(/app/im.8c10222d11a27a76e0bb.svg)
+}
+.flag-icon-im.flag-icon-squared{
+	background-image:url(/app/im.ac0c825e76851b740da5.svg)
+}
+.flag-icon-in{
+	background-image:url(/app/in.e4ab7bd057c6d49f21b3.svg)
+}
+.flag-icon-in.flag-icon-squared{
+	background-image:url(/app/in.209ae8e9585774eb4fe3.svg)
+}
+.flag-icon-io{
+	background-image:url(/app/io.3ddd1280f6e320712021.svg)
+}
+.flag-icon-io.flag-icon-squared{
+	background-image:url(/app/io.a45231d40c5e618f0237.svg)
+}
+.flag-icon-iq{
+	background-image:url(/app/iq.be9919971db8b464b1ba.svg)
+}
+.flag-icon-iq.flag-icon-squared{
+	background-image:url(/app/iq.8d936728f892c7f38e61.svg)
+}
+.flag-icon-ir{
+	background-image:url(/app/ir.23e0f96c3fa45df393a3.svg)
+}
+.flag-icon-ir.flag-icon-squared{
+	background-image:url(/app/ir.7bf140ab46a7630cb7c4.svg)
+}
+.flag-icon-is{
+	background-image:url(/app/is.2ce20c50765b6cccf87e.svg)
+}
+.flag-icon-is.flag-icon-squared{
+	background-image:url(/app/is.ae44c07e894b0a298c57.svg)
+}
+.flag-icon-it{
+	background-image:url(/app/it.8d15de04f5f6e8e89cab.svg)
+}
+.flag-icon-it.flag-icon-squared{
+	background-image:url(/app/it.22b99ae704f3de63285b.svg)
+}
+.flag-icon-je{
+	background-image:url(/app/je.e0932aed817435f70cf0.svg)
+}
+.flag-icon-je.flag-icon-squared{
+	background-image:url(/app/je.ab89781e75ca3440dcb8.svg)
+}
+.flag-icon-jm{
+	background-image:url(/app/jm.67f96b2f0df34ce53d76.svg)
+}
+.flag-icon-jm.flag-icon-squared{
+	background-image:url(/app/jm.b7b13124a4068892dc24.svg)
+}
+.flag-icon-jo{
+	background-image:url(/app/jo.9e2f2b3ac5784152799c.svg)
+}
+.flag-icon-jo.flag-icon-squared{
+	background-image:url(/app/jo.5130279865a7759012e1.svg)
+}
+.flag-icon-jp{
+	background-image:url(/app/jp.3e72015c537875435192.svg)
+}
+.flag-icon-jp.flag-icon-squared{
+	background-image:url(/app/jp.16a568ca9eb15a225e3a.svg)
+}
+.flag-icon-ke{
+	background-image:url(/app/ke.dd8a91b8196000643e33.svg)
+}
+.flag-icon-ke.flag-icon-squared{
+	background-image:url(/app/ke.87900162ad67f9a69484.svg)
+}
+.flag-icon-kg{
+	background-image:url(/app/kg.1cfa1c79dd521076fb17.svg)
+}
+.flag-icon-kg.flag-icon-squared{
+	background-image:url(/app/kg.5908392a2d107a3f7db5.svg)
+}
+.flag-icon-kh{
+	background-image:url(/app/kh.5a13865d2bcaa01d3148.svg)
+}
+.flag-icon-kh.flag-icon-squared{
+	background-image:url(/app/kh.61a4b374334e719cd3d6.svg)
+}
+.flag-icon-ki{
+	background-image:url(/app/ki.db7e40f60e21ad4b6b64.svg)
+}
+.flag-icon-ki.flag-icon-squared{
+	background-image:url(/app/ki.cdeef8df88cfea2b6759.svg)
+}
+.flag-icon-km{
+	background-image:url(/app/km.9b06043d7f9a227bc635.svg)
+}
+.flag-icon-km.flag-icon-squared{
+	background-image:url(/app/km.eb69abb632453975c98b.svg)
+}
+.flag-icon-kn{
+	background-image:url(/app/kn.bde74c6da4f2cff6fe3a.svg)
+}
+.flag-icon-kn.flag-icon-squared{
+	background-image:url(/app/kn.4ad12564dce8cd72eac5.svg)
+}
+.flag-icon-kp{
+	background-image:url(/app/kp.9c53429167b92e260e1e.svg)
+}
+.flag-icon-kp.flag-icon-squared{
+	background-image:url(/app/kp.f08daf335790f99ff297.svg)
+}
+.flag-icon-kr{
+	background-image:url(/app/kr.60fde7fc2f6005c1131b.svg)
+}
+.flag-icon-kr.flag-icon-squared{
+	background-image:url(/app/kr.7fb0181b38e9efdb9bc5.svg)
+}
+.flag-icon-kw{
+	background-image:url(/app/kw.496fa4662f48d2d7e3bd.svg)
+}
+.flag-icon-kw.flag-icon-squared{
+	background-image:url(/app/kw.33b3292eb3089a10a5cb.svg)
+}
+.flag-icon-ky{
+	background-image:url(/app/ky.5814c5a94343cb013715.svg)
+}
+.flag-icon-ky.flag-icon-squared{
+	background-image:url(/app/ky.ef1f65378cdaea3bc6a0.svg)
+}
+.flag-icon-kz{
+	background-image:url(/app/kz.740ef4bf1d15794bfbeb.svg)
+}
+.flag-icon-kz.flag-icon-squared{
+	background-image:url(/app/kz.a19240f60581e10a25ee.svg)
+}
+.flag-icon-la{
+	background-image:url(/app/la.0f124ae33af5a9291262.svg)
+}
+.flag-icon-la.flag-icon-squared{
+	background-image:url(/app/la.6b86f25a0d2d8d95ffc5.svg)
+}
+.flag-icon-lb{
+	background-image:url(/app/lb.e33a49a9a071a76dd393.svg)
+}
+.flag-icon-lb.flag-icon-squared{
+	background-image:url(/app/lb.56f32195732ab1ad22f1.svg)
+}
+.flag-icon-lc{
+	background-image:url(/app/lc.1c3a5554a0d8d1afaaf5.svg)
+}
+.flag-icon-lc.flag-icon-squared{
+	background-image:url(/app/lc.c056c2a721c5bd992bd4.svg)
+}
+.flag-icon-li{
+	background-image:url(/app/li.fb5437d371f4dc6261e9.svg)
+}
+.flag-icon-li.flag-icon-squared{
+	background-image:url(/app/li.748d1f9967c0c449deca.svg)
+}
+.flag-icon-lk{
+	background-image:url(/app/lk.497ee5b9544ffc297204.svg)
+}
+.flag-icon-lk.flag-icon-squared{
+	background-image:url(/app/lk.f54e1ef96c3b7670cd8d.svg)
+}
+.flag-icon-lr{
+	background-image:url(/app/lr.309ccbd814f8f4ab23dd.svg)
+}
+.flag-icon-lr.flag-icon-squared{
+	background-image:url(/app/lr.6656f943933fa3febede.svg)
+}
+.flag-icon-ls{
+	background-image:url(/app/ls.c0799ebf1d583d0d3840.svg)
+}
+.flag-icon-ls.flag-icon-squared{
+	background-image:url(/app/ls.533cb320083af55b894a.svg)
+}
+.flag-icon-lt{
+	background-image:url(/app/lt.c3aeac0dad1dfcc917a7.svg)
+}
+.flag-icon-lt.flag-icon-squared{
+	background-image:url(/app/lt.70975be09055c7db032d.svg)
+}
+.flag-icon-lu{
+	background-image:url(/app/lu.c858787cf95b92f694db.svg)
+}
+.flag-icon-lu.flag-icon-squared{
+	background-image:url(/app/lu.2585715a069b9b823482.svg)
+}
+.flag-icon-lv{
+	background-image:url(/app/lv.8b293d984cea7db72e62.svg)
+}
+.flag-icon-lv.flag-icon-squared{
+	background-image:url(/app/lv.f3c1274d166407a222fa.svg)
+}
+.flag-icon-ly{
+	background-image:url(/app/ly.d089645e2ba9f431431b.svg)
+}
+.flag-icon-ly.flag-icon-squared{
+	background-image:url(/app/ly.050ff9b00cb235a2a81b.svg)
+}
+.flag-icon-ma{
+	background-image:url(/app/ma.60fbc221d84de9fb44f0.svg)
+}
+.flag-icon-ma.flag-icon-squared{
+	background-image:url(/app/ma.bee9c05416fd66f6bc44.svg)
+}
+.flag-icon-mc{
+	background-image:url(/app/mc.b4f4b90da30103ef9cb0.svg)
+}
+.flag-icon-mc.flag-icon-squared{
+	background-image:url(/app/mc.78528abed80a64294f9a.svg)
+}
+.flag-icon-md{
+	background-image:url(/app/md.5f734d921b0b2e2fa02c.svg)
+}
+.flag-icon-md.flag-icon-squared{
+	background-image:url(/app/md.75ec533ab81d8c9c9439.svg)
+}
+.flag-icon-me{
+	background-image:url(/app/me.76c434a613ae0b6e08fc.svg)
+}
+.flag-icon-me.flag-icon-squared{
+	background-image:url(/app/me.2d0c8f786f51dfee2fb5.svg)
+}
+.flag-icon-mf{
+	background-image:url(/app/mf.5b9ff36c7fed044c2531.svg)
+}
+.flag-icon-mf.flag-icon-squared{
+	background-image:url(/app/mf.487f7bd7fd30eec81e74.svg)
+}
+.flag-icon-mg{
+	background-image:url(/app/mg.67f5922d788548be9d49.svg)
+}
+.flag-icon-mg.flag-icon-squared{
+	background-image:url(/app/mg.91e10ba084cc7f7b2498.svg)
+}
+.flag-icon-mh{
+	background-image:url(/app/mh.6d60cee3ee8d6bee9a37.svg)
+}
+.flag-icon-mh.flag-icon-squared{
+	background-image:url(/app/mh.8f1f91348e69c8bf64d8.svg)
+}
+.flag-icon-mk{
+	background-image:url(/app/mk.ed091b887cafb2adbf04.svg)
+}
+.flag-icon-mk.flag-icon-squared{
+	background-image:url(/app/mk.2413b10706c9e29c439b.svg)
+}
+.flag-icon-ml{
+	background-image:url(/app/ml.e6f097f93a69b28225c4.svg)
+}
+.flag-icon-ml.flag-icon-squared{
+	background-image:url(/app/ml.204b0da4b499bc369441.svg)
+}
+.flag-icon-mm{
+	background-image:url(/app/mm.92e9f832a28fd293035e.svg)
+}
+.flag-icon-mm.flag-icon-squared{
+	background-image:url(/app/mm.8d6d26bc590adff8e84d.svg)
+}
+.flag-icon-mn{
+	background-image:url(/app/mn.9ebe47ebe8928cd80ea9.svg)
+}
+.flag-icon-mn.flag-icon-squared{
+	background-image:url(/app/mn.933606d511566e3f0d15.svg)
+}
+.flag-icon-mo{
+	background-image:url(/app/mo.b6d4d1f6c34ca7e14803.svg)
+}
+.flag-icon-mo.flag-icon-squared{
+	background-image:url(/app/mo.67acac75dc2e1cb66756.svg)
+}
+.flag-icon-mp{
+	background-image:url(/app/mp.c5eb7f233b097ecfc5f7.svg)
+}
+.flag-icon-mp.flag-icon-squared{
+	background-image:url(/app/mp.8a731cbc2f690d74704a.svg)
+}
+.flag-icon-mq{
+	background-image:url(/app/mq.bfeadb02a0e0566b3764.svg)
+}
+.flag-icon-mq.flag-icon-squared{
+	background-image:url(/app/mq.a09e48650a204ba97073.svg)
+}
+.flag-icon-mr{
+	background-image:url(/app/mr.a46829f17f8f3c4c5a59.svg)
+}
+.flag-icon-mr.flag-icon-squared{
+	background-image:url(/app/mr.bf379763ac177c83487c.svg)
+}
+.flag-icon-ms{
+	background-image:url(/app/ms.e147bd2bb2aa7f31e380.svg)
+}
+.flag-icon-ms.flag-icon-squared{
+	background-image:url(/app/ms.ad88044d48d7c401d3be.svg)
+}
+.flag-icon-mt{
+	background-image:url(/app/mt.a816f3a2978c63034949.svg)
+}
+.flag-icon-mt.flag-icon-squared{
+	background-image:url(/app/mt.f6e3733c70db8db8048d.svg)
+}
+.flag-icon-mu{
+	background-image:url(/app/mu.896330b72092b57179e0.svg)
+}
+.flag-icon-mu.flag-icon-squared{
+	background-image:url(/app/mu.67c8f3621446645a9008.svg)
+}
+.flag-icon-mv{
+	background-image:url(/app/mv.3c896bfdad2f76fe0945.svg)
+}
+.flag-icon-mv.flag-icon-squared{
+	background-image:url(/app/mv.0fdc08c6985e30f2a3bf.svg)
+}
+.flag-icon-mw{
+	background-image:url(/app/mw.6073ddcffcc7c715883b.svg)
+}
+.flag-icon-mw.flag-icon-squared{
+	background-image:url(/app/mw.baf490bf505c107037b6.svg)
+}
+.flag-icon-mx{
+	background-image:url(/app/mx.8ee3aa6a7feaf34c5cc8.svg)
+}
+.flag-icon-mx.flag-icon-squared{
+	background-image:url(/app/mx.3aa223c8cc48eba75fbb.svg)
+}
+.flag-icon-my{
+	background-image:url(/app/my.e6739f404c969d6225b4.svg)
+}
+.flag-icon-my.flag-icon-squared{
+	background-image:url(/app/my.263aea34bcf7dfb6c02b.svg)
+}
+.flag-icon-mz{
+	background-image:url(/app/mz.ef4657da4e39ea91de72.svg)
+}
+.flag-icon-mz.flag-icon-squared{
+	background-image:url(/app/mz.e99caf39cbb120f1b498.svg)
+}
+.flag-icon-na{
+	background-image:url(/app/na.bb49a4035c384be9926b.svg)
+}
+.flag-icon-na.flag-icon-squared{
+	background-image:url(/app/na.74257fb27e114303ff5c.svg)
+}
+.flag-icon-nc{
+	background-image:url(/app/nc.b8c9f5e4fa65dc17c5f0.svg)
+}
+.flag-icon-nc.flag-icon-squared{
+	background-image:url(/app/nc.d393b8faea4e68b19f4d.svg)
+}
+.flag-icon-ne{
+	background-image:url(/app/ne.b7369ec74cd2a2ccf698.svg)
+}
+.flag-icon-ne.flag-icon-squared{
+	background-image:url(/app/ne.e56edd30b77ac6f1cae9.svg)
+}
+.flag-icon-nf{
+	background-image:url(/app/nf.99af5a94b011d565f7ab.svg)
+}
+.flag-icon-nf.flag-icon-squared{
+	background-image:url(/app/nf.801ee09f96411568a40a.svg)
+}
+.flag-icon-ng{
+	background-image:url(/app/ng.992459a3d0f22849b493.svg)
+}
+.flag-icon-ng.flag-icon-squared{
+	background-image:url(/app/ng.520463e155c2f4a38079.svg)
+}
+.flag-icon-ni{
+	background-image:url(/app/ni.7b131ab3ceaf55696b68.svg)
+}
+.flag-icon-ni.flag-icon-squared{
+	background-image:url(/app/ni.baafd7d7fc1b69642270.svg)
+}
+.flag-icon-nl{
+	background-image:url(/app/nl.d4811c278d659bb33f91.svg)
+}
+.flag-icon-nl.flag-icon-squared{
+	background-image:url(/app/nl.390aa40fd896fda40718.svg)
+}
+.flag-icon-no{
+	background-image:url(/app/no.0b41df77e951a30bbfcc.svg)
+}
+.flag-icon-no.flag-icon-squared{
+	background-image:url(/app/no.b7a21f544f617a59abff.svg)
+}
+.flag-icon-np{
+	background-image:url(/app/np.b66578a5c732da35e2c8.svg)
+}
+.flag-icon-np.flag-icon-squared{
+	background-image:url(/app/np.27f0f4e72e359732d044.svg)
+}
+.flag-icon-nr{
+	background-image:url(/app/nr.d16edc69065bf2bd0b0b.svg)
+}
+.flag-icon-nr.flag-icon-squared{
+	background-image:url(/app/nr.2ef5b7c8f28f9c85d7c2.svg)
+}
+.flag-icon-nu{
+	background-image:url(/app/nu.433deb3d047d08459797.svg)
+}
+.flag-icon-nu.flag-icon-squared{
+	background-image:url(/app/nu.1db5a99d1f547d957911.svg)
+}
+.flag-icon-nz{
+	background-image:url(/app/nz.3241e92770d44bbe8518.svg)
+}
+.flag-icon-nz.flag-icon-squared{
+	background-image:url(/app/nz.7dab6e5e9d9e0d4f95e5.svg)
+}
+.flag-icon-om{
+	background-image:url(/app/om.1798270ba5e7dc130458.svg)
+}
+.flag-icon-om.flag-icon-squared{
+	background-image:url(/app/om.b9b7d0bc1d35b84b9e66.svg)
+}
+.flag-icon-pa{
+	background-image:url(/app/pa.d0787677f0d7c9cdaa8f.svg)
+}
+.flag-icon-pa.flag-icon-squared{
+	background-image:url(/app/pa.beb40ab6cce7b2d196d2.svg)
+}
+.flag-icon-pe{
+	background-image:url(/app/pe.ea95116f76c82964116d.svg)
+}
+.flag-icon-pe.flag-icon-squared{
+	background-image:url(/app/pe.23591f9d72b1e3ad2652.svg)
+}
+.flag-icon-pf{
+	background-image:url(/app/pf.bab3b7a56aa5cd5f4423.svg)
+}
+.flag-icon-pf.flag-icon-squared{
+	background-image:url(/app/pf.2a69c581854033f017ef.svg)
+}
+.flag-icon-pg{
+	background-image:url(/app/pg.68e1ce3359df0808db9c.svg)
+}
+.flag-icon-pg.flag-icon-squared{
+	background-image:url(/app/pg.0b07d41894441f5e68d8.svg)
+}
+.flag-icon-ph{
+	background-image:url(/app/ph.12f36eed83fdf6fa33bc.svg)
+}
+.flag-icon-ph.flag-icon-squared{
+	background-image:url(/app/ph.6ae85442fa90195cc9f3.svg)
+}
+.flag-icon-pk{
+	background-image:url(/app/pk.c2e1a15939a23c5894eb.svg)
+}
+.flag-icon-pk.flag-icon-squared{
+	background-image:url(/app/pk.b67f80e0c74ad587ee42.svg)
+}
+.flag-icon-pl{
+	background-image:url(/app/pl.562edca5bb39d66f4c92.svg)
+}
+.flag-icon-pl.flag-icon-squared{
+	background-image:url(/app/pl.3fe3bd51a504e4239ca5.svg)
+}
+.flag-icon-pm{
+	background-image:url(/app/pm.1e97e8d76fe2d553eedd.svg)
+}
+.flag-icon-pm.flag-icon-squared{
+	background-image:url(/app/pm.89993b1ff27bb0107946.svg)
+}
+.flag-icon-pn{
+	background-image:url(/app/pn.c4a2e49ffb6e0dc37c7e.svg)
+}
+.flag-icon-pn.flag-icon-squared{
+	background-image:url(/app/pn.48bd62e408e5f6ebafd1.svg)
+}
+.flag-icon-pr{
+	background-image:url(/app/pr.0811a0517cf38bb44f51.svg)
+}
+.flag-icon-pr.flag-icon-squared{
+	background-image:url(/app/pr.1d278b022fba04fb58b4.svg)
+}
+.flag-icon-ps{
+	background-image:url(/app/ps.42f2391e39ad07037687.svg)
+}
+.flag-icon-ps.flag-icon-squared{
+	background-image:url(/app/ps.2992f9b92974b68d8a59.svg)
+}
+.flag-icon-pt{
+	background-image:url(/app/pt.b908edaecfb2ef51ac70.svg)
+}
+.flag-icon-pt.flag-icon-squared{
+	background-image:url(/app/pt.04fa443dfc5d7647ec4a.svg)
+}
+.flag-icon-pw{
+	background-image:url(/app/pw.20a1d020151e19375915.svg)
+}
+.flag-icon-pw.flag-icon-squared{
+	background-image:url(/app/pw.78aaead281d584ac98bb.svg)
+}
+.flag-icon-py{
+	background-image:url(/app/py.bbc22e414bad33de0d15.svg)
+}
+.flag-icon-py.flag-icon-squared{
+	background-image:url(/app/py.a70b32d0609b162db211.svg)
+}
+.flag-icon-qa{
+	background-image:url(/app/qa.b314986b75f2a81f5575.svg)
+}
+.flag-icon-qa.flag-icon-squared{
+	background-image:url(/app/qa.78909a6f9bc32e8d2bb7.svg)
+}
+.flag-icon-re{
+	background-image:url(/app/re.17909e3784b7d4ef90ef.svg)
+}
+.flag-icon-re.flag-icon-squared{
+	background-image:url(/app/re.01fea3b62ac2440a5785.svg)
+}
+.flag-icon-ro{
+	background-image:url(/app/ro.625aca9e928c0eb9f463.svg)
+}
+.flag-icon-ro.flag-icon-squared{
+	background-image:url(/app/ro.22278e1314d8e8144063.svg)
+}
+.flag-icon-rs{
+	background-image:url(/app/rs.291d0fb654f2738012da.svg)
+}
+.flag-icon-rs.flag-icon-squared{
+	background-image:url(/app/rs.d00d37d2486026cb088d.svg)
+}
+.flag-icon-ru{
+	background-image:url(/app/ru.0cacf46e6f473fa88781.svg)
+}
+.flag-icon-ru.flag-icon-squared{
+	background-image:url(/app/ru.e3ee3b099783ef393f2f.svg)
+}
+.flag-icon-rw{
+	background-image:url(/app/rw.7fe5146baf52818fc8f0.svg)
+}
+.flag-icon-rw.flag-icon-squared{
+	background-image:url(/app/rw.997fe41bfffc77e0073f.svg)
+}
+.flag-icon-sa{
+	background-image:url(/app/sa.c36d1991b52ce043a0ae.svg)
+}
+.flag-icon-sa.flag-icon-squared{
+	background-image:url(/app/sa.135d0c86322f6763fb56.svg)
+}
+.flag-icon-sb{
+	background-image:url(/app/sb.aa819297c44f0a9d29fa.svg)
+}
+.flag-icon-sb.flag-icon-squared{
+	background-image:url(/app/sb.d64e984857cd493cbe11.svg)
+}
+.flag-icon-sc{
+	background-image:url(/app/sc.e6584421fdc8b72dfd9e.svg)
+}
+.flag-icon-sc.flag-icon-squared{
+	background-image:url(/app/sc.ad1bcb4c714e0ca8c735.svg)
+}
+.flag-icon-sd{
+	background-image:url(/app/sd.c466d90ea717a1f99f0c.svg)
+}
+.flag-icon-sd.flag-icon-squared{
+	background-image:url(/app/sd.7ab061d859c16996f2bd.svg)
+}
+.flag-icon-se{
+	background-image:url(/app/se.fd663a70a1a92a395078.svg)
+}
+.flag-icon-se.flag-icon-squared{
+	background-image:url(/app/se.92c66d8396d5604a9b8f.svg)
+}
+.flag-icon-sg{
+	background-image:url(/app/sg.5e6ed3f10d1de224079d.svg)
+}
+.flag-icon-sg.flag-icon-squared{
+	background-image:url(/app/sg.9eb47fe757c9d8abb850.svg)
+}
+.flag-icon-sh{
+	background-image:url(/app/sh.6560d76bf10093362d93.svg)
+}
+.flag-icon-sh.flag-icon-squared{
+	background-image:url(/app/sh.487ef1c8b75a5950ecc1.svg)
+}
+.flag-icon-si{
+	background-image:url(/app/si.31fbdc5b5842cfa094af.svg)
+}
+.flag-icon-si.flag-icon-squared{
+	background-image:url(/app/si.63ba8c45578b45c1e1db.svg)
+}
+.flag-icon-sj{
+	background-image:url(/app/sj.ae547dbec390990657f9.svg)
+}
+.flag-icon-sj.flag-icon-squared{
+	background-image:url(/app/sj.ecbc9e939c3823f82f4f.svg)
+}
+.flag-icon-sk{
+	background-image:url(/app/sk.b84444bf8d98e48c8b00.svg)
+}
+.flag-icon-sk.flag-icon-squared{
+	background-image:url(/app/sk.a5af0a28a32c844c44fd.svg)
+}
+.flag-icon-sl{
+	background-image:url(/app/sl.ddbd1d9b113b2688102f.svg)
+}
+.flag-icon-sl.flag-icon-squared{
+	background-image:url(/app/sl.f6315f743d7d62adc0f1.svg)
+}
+.flag-icon-sm{
+	background-image:url(/app/sm.3b1c9fb5c651a0bda667.svg)
+}
+.flag-icon-sm.flag-icon-squared{
+	background-image:url(/app/sm.f56650007eb0fc2472dd.svg)
+}
+.flag-icon-sn{
+	background-image:url(/app/sn.5b654e1a7246e45c6577.svg)
+}
+.flag-icon-sn.flag-icon-squared{
+	background-image:url(/app/sn.d2bec7efb0241ffa5077.svg)
+}
+.flag-icon-so{
+	background-image:url(/app/so.f91fb92c0ca6934e1e00.svg)
+}
+.flag-icon-so.flag-icon-squared{
+	background-image:url(/app/so.c1561217671d8bdde531.svg)
+}
+.flag-icon-sr{
+	background-image:url(/app/sr.788f3e2af54fdedc56e3.svg)
+}
+.flag-icon-sr.flag-icon-squared{
+	background-image:url(/app/sr.be27d1ae7006588ccd01.svg)
+}
+.flag-icon-ss{
+	background-image:url(/app/ss.67001d2a8840b34f8407.svg)
+}
+.flag-icon-ss.flag-icon-squared{
+	background-image:url(/app/ss.e3933b4455dc06b90bba.svg)
+}
+.flag-icon-st{
+	background-image:url(/app/st.1f545eb99b323d22b91e.svg)
+}
+.flag-icon-st.flag-icon-squared{
+	background-image:url(/app/st.d0a56dbbee36540ebf27.svg)
+}
+.flag-icon-sv{
+	background-image:url(/app/sv.1176ea281282d6b053af.svg)
+}
+.flag-icon-sv.flag-icon-squared{
+	background-image:url(/app/sv.26ee887282519008e13d.svg)
+}
+.flag-icon-sx{
+	background-image:url(/app/sx.522d898c19396a45caa5.svg)
+}
+.flag-icon-sx.flag-icon-squared{
+	background-image:url(/app/sx.a724800161ac62624719.svg)
+}
+.flag-icon-sy{
+	background-image:url(/app/sy.64f0d2d7a590e22c8d0c.svg)
+}
+.flag-icon-sy.flag-icon-squared{
+	background-image:url(/app/sy.73690f50d6d4106fbd4c.svg)
+}
+.flag-icon-sz{
+	background-image:url(/app/sz.cfb8269f38d55f7f388b.svg)
+}
+.flag-icon-sz.flag-icon-squared{
+	background-image:url(/app/sz.dc2faeb7bafa9eca955d.svg)
+}
+.flag-icon-tc{
+	background-image:url(/app/tc.d40761f21eebb19082ad.svg)
+}
+.flag-icon-tc.flag-icon-squared{
+	background-image:url(/app/tc.47c8276114b1d9c05bfd.svg)
+}
+.flag-icon-td{
+	background-image:url(/app/td.a0923ddc3c8abed20bfd.svg)
+}
+.flag-icon-td.flag-icon-squared{
+	background-image:url(/app/td.f37a395c81f2cfe3b51e.svg)
+}
+.flag-icon-tf{
+	background-image:url(/app/tf.4ab43cc9db2814759ac2.svg)
+}
+.flag-icon-tf.flag-icon-squared{
+	background-image:url(/app/tf.2e7dc1af2d97ea62c347.svg)
+}
+.flag-icon-tg{
+	background-image:url(/app/tg.025deae88a72695eb609.svg)
+}
+.flag-icon-tg.flag-icon-squared{
+	background-image:url(/app/tg.29fa137c095a6ace1adc.svg)
+}
+.flag-icon-th{
+	background-image:url(/app/th.76fca72f6d180d3f14a5.svg)
+}
+.flag-icon-th.flag-icon-squared{
+	background-image:url(/app/th.904dd7853b623153a82a.svg)
+}
+.flag-icon-tj{
+	background-image:url(/app/tj.a8ed5244d61deb197fad.svg)
+}
+.flag-icon-tj.flag-icon-squared{
+	background-image:url(/app/tj.980d12c941054162ab18.svg)
+}
+.flag-icon-tk{
+	background-image:url(/app/tk.1959d9de338fea49559e.svg)
+}
+.flag-icon-tk.flag-icon-squared{
+	background-image:url(/app/tk.7aaccddb93a504f69855.svg)
+}
+.flag-icon-tl{
+	background-image:url(/app/tl.3c1ccf1158d75af368e0.svg)
+}
+.flag-icon-tl.flag-icon-squared{
+	background-image:url(/app/tl.0616faaafebb8abad852.svg)
+}
+.flag-icon-tm{
+	background-image:url(/app/tm.b13d1440e1d8f4c55361.svg)
+}
+.flag-icon-tm.flag-icon-squared{
+	background-image:url(/app/tm.ea365f332bb0b8bb8f1f.svg)
+}
+.flag-icon-tn{
+	background-image:url(/app/tn.50cd91018d742d2f5c31.svg)
+}
+.flag-icon-tn.flag-icon-squared{
+	background-image:url(/app/tn.fea87146ed08572e8a49.svg)
+}
+.flag-icon-to{
+	background-image:url(/app/to.79354e72ad0559ef82e2.svg)
+}
+.flag-icon-to.flag-icon-squared{
+	background-image:url(/app/to.238ef1cd63bf158a8679.svg)
+}
+.flag-icon-tr{
+	background-image:url(/app/tr.ed6d5f37779af38911b0.svg)
+}
+.flag-icon-tr.flag-icon-squared{
+	background-image:url(/app/tr.ce2e2e8e0650cfed7548.svg)
+}
+.flag-icon-tt{
+	background-image:url(/app/tt.c3647d9bc890d2ebd383.svg)
+}
+.flag-icon-tt.flag-icon-squared{
+	background-image:url(/app/tt.4705d420d21a5ba8a269.svg)
+}
+.flag-icon-tv{
+	background-image:url(/app/tv.829fb9d89912457f171d.svg)
+}
+.flag-icon-tv.flag-icon-squared{
+	background-image:url(/app/tv.a595f49d6d5586b06f4b.svg)
+}
+.flag-icon-tw{
+	background-image:url(/app/tw.8a194685378977299ae3.svg)
+}
+.flag-icon-tw.flag-icon-squared{
+	background-image:url(/app/tw.26cc9d596b2dc8b90f17.svg)
+}
+.flag-icon-tz{
+	background-image:url(/app/tz.88c89454adfe247406b4.svg)
+}
+.flag-icon-tz.flag-icon-squared{
+	background-image:url(/app/tz.d02545a1e6ca8ee2c217.svg)
+}
+.flag-icon-ua{
+	background-image:url(/app/ua.a8b13525ee3b82f90119.svg)
+}
+.flag-icon-ua.flag-icon-squared{
+	background-image:url(/app/ua.841d259d582b4c6f5585.svg)
+}
+.flag-icon-ug{
+	background-image:url(/app/ug.be11ef3932f4010356d7.svg)
+}
+.flag-icon-ug.flag-icon-squared{
+	background-image:url(/app/ug.6d6f88960e155a85c6e5.svg)
+}
+.flag-icon-um{
+	background-image:url(/app/um.8754eddfe66cfeebda89.svg)
+}
+.flag-icon-um.flag-icon-squared{
+	background-image:url(/app/um.3d347682d5c526a37719.svg)
+}
+.flag-icon-us{
+	background-image:url(/app/us.ae65659236a7e3484027.svg)
+}
+.flag-icon-us.flag-icon-squared{
+	background-image:url(/app/us.8ec583188aba7e942658.svg)
+}
+.flag-icon-uy{
+	background-image:url(/app/uy.79b02850081e27b3ba20.svg)
+}
+.flag-icon-uy.flag-icon-squared{
+	background-image:url(/app/uy.adbc4992aa0cb87499df.svg)
+}
+.flag-icon-uz{
+	background-image:url(/app/uz.eb1e00b870d7f0784288.svg)
+}
+.flag-icon-uz.flag-icon-squared{
+	background-image:url(/app/uz.ca892343cb962d42bc4c.svg)
+}
+.flag-icon-va{
+	background-image:url(/app/va.21913d789a3d4b70ce0a.svg)
+}
+.flag-icon-va.flag-icon-squared{
+	background-image:url(/app/va.90e9f73abaa206455171.svg)
+}
+.flag-icon-vc{
+	background-image:url(/app/vc.4ac5124fbf60fcff6808.svg)
+}
+.flag-icon-vc.flag-icon-squared{
+	background-image:url(/app/vc.bbb52fa0756298590332.svg)
+}
+.flag-icon-ve{
+	background-image:url(/app/ve.b2cd5a9a011fd43f115a.svg)
+}
+.flag-icon-ve.flag-icon-squared{
+	background-image:url(/app/ve.9f23d9626b92963d5502.svg)
+}
+.flag-icon-vg{
+	background-image:url(/app/vg.b37358a1a76ab385e4ea.svg)
+}
+.flag-icon-vg.flag-icon-squared{
+	background-image:url(/app/vg.a796b16d8f1c42862953.svg)
+}
+.flag-icon-vi{
+	background-image:url(/app/vi.4952d5bf33f73b27ccfe.svg)
+}
+.flag-icon-vi.flag-icon-squared{
+	background-image:url(/app/vi.0aa782108fb39a7d5f3a.svg)
+}
+.flag-icon-vn{
+	background-image:url(/app/vn.6b3aef51e8b58cf029a8.svg)
+}
+.flag-icon-vn.flag-icon-squared{
+	background-image:url(/app/vn.a0081482192375c70656.svg)
+}
+.flag-icon-vu{
+	background-image:url(/app/vu.859836e7f7e23c3e620d.svg)
+}
+.flag-icon-vu.flag-icon-squared{
+	background-image:url(/app/vu.730801abb424741b4487.svg)
+}
+.flag-icon-wf{
+	background-image:url(/app/wf.e3ac728c6286182ecee6.svg)
+}
+.flag-icon-wf.flag-icon-squared{
+	background-image:url(/app/wf.05522b9f19236d09cc79.svg)
+}
+.flag-icon-ws{
+	background-image:url(/app/ws.405a2c5f036343f54f0e.svg)
+}
+.flag-icon-ws.flag-icon-squared{
+	background-image:url(/app/ws.3ea6d44f91f0accab1ba.svg)
+}
+.flag-icon-ye{
+	background-image:url(/app/ye.b5840a84dc1fc4442494.svg)
+}
+.flag-icon-ye.flag-icon-squared{
+	background-image:url(/app/ye.d13e1629bdb0f80baef6.svg)
+}
+.flag-icon-yt{
+	background-image:url(/app/yt.f06d254d5978e4b0223f.svg)
+}
+.flag-icon-yt.flag-icon-squared{
+	background-image:url(/app/yt.b6042b9cfb432f844e96.svg)
+}
+.flag-icon-za{
+	background-image:url(/app/za.14e7052257d9914b613f.svg)
+}
+.flag-icon-za.flag-icon-squared{
+	background-image:url(/app/za.67ff2e108ce38abcf3f6.svg)
+}
+.flag-icon-zm{
+	background-image:url(/app/zm.a9ff495dd331a2364fac.svg)
+}
+.flag-icon-zm.flag-icon-squared{
+	background-image:url(/app/zm.3eef5dc07668374a4628.svg)
+}
+.flag-icon-zw{
+	background-image:url(/app/zw.6ac3949a90f1620a287b.svg)
+}
+.flag-icon-zw.flag-icon-squared{
+	background-image:url(/app/zw.8b8854659c43952e254a.svg)
+}
+.flag-icon-es-ca{
+	background-image:url(/app/es-ca.e9062265c973b4ab42aa.svg)
+}
+.flag-icon-es-ca.flag-icon-squared{
+	background-image:url(/app/es-ca.a35e6a4a92e9aa04f11d.svg)
+}
+.flag-icon-es-ga{
+	background-image:url(/app/es-ga.2618e21f1cd5dcbd95d7.svg)
+}
+.flag-icon-es-ga.flag-icon-squared{
+	background-image:url(/app/es-ga.151714df0fea994ff25d.svg)
+}
+.flag-icon-eu{
+	background-image:url(/app/eu.ee7f4712ac4553621d85.svg)
+}
+.flag-icon-eu.flag-icon-squared{
+	background-image:url(/app/eu.4c73f57cb89b48ebae5e.svg)
+}
+.flag-icon-gb-eng{
+	background-image:url(/app/gb-eng.14167f77f128b0f57a62.svg)
+}
+.flag-icon-gb-eng.flag-icon-squared{
+	background-image:url(/app/gb-eng.eabfeadc28e73c627eb8.svg)
+}
+.flag-icon-gb-nir{
+	background-image:url(/app/gb-nir.43b61feaa71fe3689833.svg)
+}
+.flag-icon-gb-nir.flag-icon-squared{
+	background-image:url(/app/gb-nir.9cad35c46f775585c615.svg)
+}
+.flag-icon-gb-sct{
+	background-image:url(/app/gb-sct.4c2c379f607fe46e0cec.svg)
+}
+.flag-icon-gb-sct.flag-icon-squared{
+	background-image:url(/app/gb-sct.31ef8bcf9416bbd5b8c6.svg)
+}
+.flag-icon-gb-wls{
+	background-image:url(/app/gb-wls.2d554424b763bed9142f.svg)
+}
+.flag-icon-gb-wls.flag-icon-squared{
+	background-image:url(/app/gb-wls.85f8b84246b2d0b3b65d.svg)
+}
+.flag-icon-un{
+	background-image:url(/app/un.bdaf37f920eb89f19bf8.svg)
+}
+.flag-icon-un.flag-icon-squared{
+	background-image:url(/app/un.e6aabbd55ef6e4b38398.svg)
+}
+.flag-icon-xk{
+	background-image:url(/app/xk.62bc9bcf96e7abb6e212.svg)
+}
+.flag-icon-xk.flag-icon-squared{
+	background-image:url(/app/xk.bd62029ec779b30b2ac8.svg)
+}
+.drops-and-wins-logo-module_dwLogo__XoGlH{
+	position:absolute;
+	top:0;
+	left:0;
+	width:25%;
+	min-width:45px;
+	z-index:1
+}
+.drops-and-wins-logo-module_dwLogo__XoGlH:before{
+	display:block;
+	content:'';
+	padding-bottom:100%;
+	background:linear-gradient(135deg,#0d0014 50%,transparent 50%);
+	border-top-left-radius:5px
+}
+.drops-and-wins-logo-module_dwLogoInner__30LrL{
+	background:#0d0014;
+	border-radius:50%;
+	width:63%;
+	position:absolute;
+	z-index:1;
+	top:15%;
+	left:10%
+}
+.drops-and-wins-logo-module_dwLogoInner__30LrL:before{
+	display:block;
+	content:'';
+	padding-bottom:100%
+}
+.drops-and-wins-logo-module_dwLogoImage__3H-5o{
+	display:block;
+	position:absolute;
+	z-index:1;
+	width:85%;
+	top:-14%;
+	left:9%
+}
